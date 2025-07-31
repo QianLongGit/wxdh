@@ -1412,12 +1412,12 @@ fieldset[disabled] .radio-custom label {
 }
 
 .phone-wrap {
-    width: 375px;
-    height: 812px
+    width: 574px !important;
+    height: 1200px !important
 }
 
 .phone-content {
-    transform: scale(.33333333);
+    transform: scale(.37) !important;
     transform-origin: 0 0;
     border: 1px #f1f1f1 solid
 }
