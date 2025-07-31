@@ -2,7 +2,7 @@
 body,
 html {
     height: 100%;
-    font-family: 'SF Pro', 'PingFang SC'
+    font-family: 'FangZheng', 'SF Pro', 'PingFang SC', sans-serif
 }
 
 a:active,
@@ -51,6 +51,13 @@ a:hover {
     font-style: normal;
     font-weight: 400;
     src: url(../fonts/SansStdBold.ttf)
+}
+
+@font-face {
+    font-family: 'FangZheng';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/fangzheng.TTF) format("truetype")
 }
 
 .wrapper {
